@@ -1,0 +1,72 @@
+/* General form styling */
+.form1
+{
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+    background-color: #181818;
+}
+.emailForm
+{
+    margin-top: 1cm;
+}
+form {
+    max-width: 600px; 
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: #181818;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    top: 100px;
+}
+
+/* Label styles */
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+/* Input and textarea styles */
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+/* Button styles */
+button {
+    background-color: #70C247;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    &:hover{
+        transition: all 0.5 ease;
+
+    }
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Responsive design using media query for mobile */
+@media screen and (max-width: 768px) {
+    form {
+        max-width: 100%; /* Full width on mobile */
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        margin-bottom: 10px;
+    }
+}

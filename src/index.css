@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+:root{
+  --yellow-theme-background-color:#1d1d1d;
+  --yellow-theme-main-color:yellow;
+  --yellow-theme-sub-text-color:#ffffff;
+  --yellow-theme-nav-background-color:#181818;
+}
+
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    scroll-behavior: smooth;
+}
+html{
+    font-size: 62.5%;
+    height: 100%;
+}
+body{
+    background: var(--yellow-theme-background-color);
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#root
+{
+    height: 100%;
+}
